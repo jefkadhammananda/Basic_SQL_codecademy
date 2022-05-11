@@ -41,7 +41,7 @@ union
 select * 
 from online
 
---menggunakan with agar dapat melakukan kombinasi dua tabel dimana salah satu tabel merupakan hasil dari kalkulasi
+--menggunakan with agar dapat melakukan kombinasi dua tabel dimana salah satu tabel merupakan hasil dari suatu kalkulasi
 --query pada parentheses, akan menghitung banyaknya jumlah magazines yang disubscribed oleh setiap customer
 --lalu akan dilakukan operator join untuk menggabungkan tabel 'jumlah_subscribe_tiap_customer' dengan tabel customers, untuk menambahkan informasi terkait dari nama customer
 
