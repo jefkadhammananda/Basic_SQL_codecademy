@@ -22,7 +22,7 @@ select *
 from movies
 where year > 2014;
 
---melakukan select data dengan ketentuan nama movies yang terdiri dari kata depan 'Se' dan kata belakang 'en'
+--melakukan select data dengan ketentuan nama movies yang terdiri dari huruf depan 'Se' dan huruf belakang 'en'
 
 select *
 from movies
