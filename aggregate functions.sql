@@ -1,5 +1,5 @@
 
---melakukan perhitungan jumlah apps pada tabel fake_apps yang memiliki nilai price 0
+--melakukan perhitungan banyaknya jumlah apps pada tabel fake_apps yang memiliki nilai price 0
 
 select count(*)
 from fake_apps
@@ -39,7 +39,7 @@ select category,
 from fake_apps
 group by 1,2;
 
---melakukan select data terhadap price, rata-rata downloads dengan pembulatan, dan jumlah apps pada setiap price yang ada dengan ketentuan jumlah apps harus > 10
+--melakukan select data terhadap price, rata-rata downloads dengan pembulatan, dan banyaknya jumlah apps pada setiap price yang ada dengan ketentuan banyaknya jumlah apps harus > 10
 
 select price,
 round(avg(downloads)), count(*)
