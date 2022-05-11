@@ -30,7 +30,7 @@ create table celebs (
  where id=4;
  select * from celebs;
 
- --menghapus data yang memiliki nilai null pada kolom twitter
+ --menghapus data yang bernilai null pada kolom twitter
 
  delete from celebs
  where twitter_handle is null;
